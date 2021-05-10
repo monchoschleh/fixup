@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0px dotted black;
+}
+
+body {
+    padding-top: 50;
+}
+
+.servicios__flex__caja {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+
+.servicios__flex {
+    padding: 2rem;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+
+h2 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.section__margin {
+    padding-top: 75px;
+}
+
+.header__box--imagen {
+    padding-top: 65px;
+}
+
+.navbar__position {
+    position: fixed;
+    z-index: 2;
+    margin-top: 0px;
+}
+
+.footer__clientes--logos {
+    width: 20%;
+}
+
+.footer__area1 {
+    padding-top: 15px;
+}
+
+.header__box--imagen {
+    height: 300px;
+    width: 100%;
+    padding-top: 160px;
+}
+
+.servicios__soporte--logo {
+    width: 70%;
+    display:block;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.servicios__soporte {
+    h2 {
+        margin-bottom: 30px;
+    }
+    h5 {
+        margin-bottom: 40px
+    }
+}
+
+.ws {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	border-radius:50px;
+    z-index:100;
+}
+
+.quienessomos__grilla__mision--logo1 {
+    width: 200px;
+    align-items: right;
+}
+
+.quienessomos__grilla__vision--logo2 {
+    width: 270px;
+    align-items: right;
+}
+.video__responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    }
+        
+.video__responsive iframe,
+.video__responsive object,
+.video__responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+.noticias__grilla__links {
+    position: sticky;
+    top:60px;
+    list-style-position: inside;
+    padding: 25px;
+    grid-area: sidebar;
+    justify-self: start;
+    align-self: start;
+    padding-top: 70px;
+    a {
+        text-decoration: none;
+    }
+    li {
+        list-style: none;
+    }
+}
+
+.noticias__grilla__1 {
+    padding-right: 30px;
+    padding-left: 30px;
+    h2 {
+        padding-bottom: 40px;
+    }
+}
+
+.noticias__grilla__2 {
+    padding-right: 30px;
+    padding-left: 30px;
+    h2 {
+        padding-bottom: 40px;
+    }
+}
+
+.noticias__grilla__3 {
+    padding-right: 30px;
+    padding-left: 30px;
+    h2 {
+        padding-bottom: 40px;
+    }
+}
+
+.video__responsive {
+    margin-bottom: 20px;
+}

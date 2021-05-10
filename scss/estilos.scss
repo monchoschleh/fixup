@@ -1,0 +1,158 @@
+@import "_colores";
+@import "_margin";
+
+ /* Configuracion body */   
+
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+ /* Alineacion de texto */   
+
+     .centro {
+        text-align: center;
+    }
+    .derecha {
+        text-align: right;
+    }
+    .izquierda {
+        text-align: left;
+    }
+
+    /* Caja de servicios */  
+    .servicios__flex__caja {
+        text-align: center;
+        height: 350px;
+        width: 250px;
+        overflow: hidden;
+    }
+
+    /* Servicio flex */  
+
+    .servicios__flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    h2 {
+        font-size: 200%;
+        font-family: 'Montserrat', Arial, sans-serif;
+    }
+
+
+    .header__box--imagen {
+        background-image: url("https://i.ibb.co/8gcHpsw/fondo.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .quienessomos__grilla {
+        display: grid;
+        grid-template-areas: 
+        "quienessomos__grilla__titulo quienessomos__grilla__titulo"
+        "quienessomos__grilla__mision quienessomos__grilla__vision";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .quienessomos__grilla__titulo {
+        grid-area: quienessomos__grilla__titulo;
+    }
+    .quienessomos__grilla__vision {
+        grid-area: quienessomos__grilla__vision;
+    }
+    .quienessomos__grilla__mision {
+        grid-area: quienessomos__grilla__mision;
+    }
+
+    .noticias__grilla {
+        display: grid;
+        grid-template-areas: 
+        "links noticias1 vacio2"
+        "links noticias2 vacio2"
+        "links noticias3 vacio2";
+        grid-template-columns: 2fr 7fr 2fr;
+    }
+    .noticias__grilla__1 {
+        grid-area: noticias1;
+    }
+    .noticias__grilla__2 {
+        grid-area: noticias2;
+    }
+    .noticias__grilla__3 {
+        grid-area: noticias3;
+    }
+    .noticias__grilla__links {
+        grid-area: links;
+    }
+    .vacio2 {
+        grid-area: vacio2;
+    }
+
+
+
+
+ /* Seteo responsive */  
+
+ @media only screen and (max-width:768px) {
+    .header__carrousel1 {
+        display: none;}
+    h2 {
+            font-size: 125%;}
+    .servicios__flex {
+    padding: 1rem;
+    margin-right: 5%;
+    margin-left: 5%;
+    flex-direction: column;
+    }
+    .header__box--imagen {
+        height: 200px;
+        width: 100%;
+        padding-top: 130px;
+    }
+    h1 {
+        font-size: 190%;
+    }
+    .servicios__soporte--logo {
+        width: 30%;
+        display:block;
+        margin:auto;
+        margin-top: 50px;
+    }
+    .quienessomos__grilla {
+        display: grid;
+        grid-template-areas: 
+        "quienessomos__grilla__titulo"
+        "quienessomos__grilla__mision"
+        "quienessomos__grilla__vision";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .noticias__grilla {
+        display: grid;
+        grid-template-areas: 
+        "noticias1"
+        "noticias2"
+        "noticias3";
+        grid-template-columns: 1fr;
+    }
+    .noticias__grilla__links {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width:769px) {
+    .header__carrousel2 {
+            display: none;
+    }}

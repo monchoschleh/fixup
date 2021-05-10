@@ -1,0 +1,300 @@
+body {
+  color: black; }
+
+.servicios__flex {
+  color: #3c3c3c; }
+
+h2 {
+  color: #4f4f4f; }
+
+.footer__area2 {
+  background-color: rgba(255, 176, 29, 0.692); }
+
+.footer__area1 {
+  background-color: rgba(207, 205, 205, 0.685); }
+
+.header__box--imagen {
+  color: white; }
+
+.servicios__soporte {
+  background-color: #ffd988; }
+
+.servicios__hosting {
+  background-color: #F76C5E;
+  color: white; }
+  .servicios__hosting h2 {
+    color: white; }
+
+.quienessomos__grilla__titulo {
+  background-color: lightblue; }
+
+.quienessomos__grilla__vision {
+  background-color: rgba(255, 166, 0, 0.151); }
+
+.quienessomos__grilla__mision {
+  background-color: rgba(255, 0, 0, 0.158); }
+
+.quienessomos__grilla__texto {
+  color: #757575; }
+
+.texto {
+  color: #757575; }
+
+.noticias__grilla__links {
+  background-color: #ffc964b9; }
+
+.noticias__grilla {
+  background-color: rgba(207, 205, 205, 0.685); }
+
+.noticias__grilla__1 {
+  background-color: white; }
+
+.noticias__grilla__2 {
+  background-color: white; }
+
+.noticias__grilla__3 {
+  background-color: white; }
+
+.noticias__grilla__links a {
+  color: #6d87ad; }
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0px dotted black; }
+
+body {
+  padding-top: 50; }
+
+.servicios__flex__caja {
+  margin-right: 2rem;
+  margin-left: 2rem; }
+
+.servicios__flex {
+  padding: 2rem;
+  margin-right: 15%;
+  margin-left: 15%; }
+
+h2 {
+  padding-top: 30px;
+  padding-bottom: 0px; }
+
+.section__margin {
+  padding-top: 75px; }
+
+.header__box--imagen {
+  padding-top: 65px; }
+
+.navbar__position {
+  position: fixed;
+  z-index: 2;
+  margin-top: 0px; }
+
+.footer__clientes--logos {
+  width: 20%; }
+
+.footer__area1 {
+  padding-top: 15px; }
+
+.header__box--imagen {
+  height: 300px;
+  width: 100%;
+  padding-top: 160px; }
+
+.servicios__soporte--logo {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-top: 50px; }
+
+.servicios__soporte h2 {
+  margin-bottom: 30px; }
+
+.servicios__soporte h5 {
+  margin-bottom: 40px; }
+
+.ws {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 50px;
+  z-index: 100; }
+
+.quienessomos__grilla__mision--logo1 {
+  width: 200px;
+  align-items: right; }
+
+.quienessomos__grilla__vision--logo2 {
+  width: 270px;
+  align-items: right; }
+
+.video__responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16/9 ratio */
+  padding-top: 30px;
+  /* IE6 workaround*/
+  height: 0;
+  overflow: hidden; }
+
+.video__responsive iframe,
+.video__responsive object,
+.video__responsive embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.noticias__grilla__links {
+  position: sticky;
+  top: 60px;
+  list-style-position: inside;
+  padding: 25px;
+  grid-area: sidebar;
+  justify-self: start;
+  align-self: start;
+  padding-top: 70px; }
+  .noticias__grilla__links a {
+    text-decoration: none; }
+  .noticias__grilla__links li {
+    list-style: none; }
+
+.noticias__grilla__1 {
+  padding-right: 30px;
+  padding-left: 30px; }
+  .noticias__grilla__1 h2 {
+    padding-bottom: 40px; }
+
+.noticias__grilla__2 {
+  padding-right: 30px;
+  padding-left: 30px; }
+  .noticias__grilla__2 h2 {
+    padding-bottom: 40px; }
+
+.noticias__grilla__3 {
+  padding-right: 30px;
+  padding-left: 30px; }
+  .noticias__grilla__3 h2 {
+    padding-bottom: 40px; }
+
+.video__responsive {
+  margin-bottom: 20px; }
+
+/* Configuracion body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center; }
+
+/* Alineacion de texto */
+.centro {
+  text-align: center; }
+
+.derecha {
+  text-align: right; }
+
+.izquierda {
+  text-align: left; }
+
+/* Caja de servicios */
+.servicios__flex__caja {
+  text-align: center;
+  height: 350px;
+  width: 250px;
+  overflow: hidden; }
+
+/* Servicio flex */
+.servicios__flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+h2 {
+  font-size: 200%;
+  font-family: 'Montserrat', Arial, sans-serif; }
+
+.header__box--imagen {
+  background-image: url("https://i.ibb.co/8gcHpsw/fondo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; }
+
+.quienessomos__grilla {
+  display: grid;
+  grid-template-areas: "quienessomos__grilla__titulo quienessomos__grilla__titulo" "quienessomos__grilla__mision quienessomos__grilla__vision";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; }
+
+.quienessomos__grilla__titulo {
+  grid-area: quienessomos__grilla__titulo; }
+
+.quienessomos__grilla__vision {
+  grid-area: quienessomos__grilla__vision; }
+
+.quienessomos__grilla__mision {
+  grid-area: quienessomos__grilla__mision; }
+
+.noticias__grilla {
+  display: grid;
+  grid-template-areas: "links noticias1 vacio2" "links noticias2 vacio2" "links noticias3 vacio2";
+  grid-template-columns: 2fr 7fr 2fr; }
+
+.noticias__grilla__1 {
+  grid-area: noticias1; }
+
+.noticias__grilla__2 {
+  grid-area: noticias2; }
+
+.noticias__grilla__3 {
+  grid-area: noticias3; }
+
+.noticias__grilla__links {
+  grid-area: links; }
+
+.vacio2 {
+  grid-area: vacio2; }
+
+/* Seteo responsive */
+@media only screen and (max-width: 768px) {
+  .header__carrousel1 {
+    display: none; }
+  h2 {
+    font-size: 125%; }
+  .servicios__flex {
+    padding: 1rem;
+    margin-right: 5%;
+    margin-left: 5%;
+    flex-direction: column; }
+  .header__box--imagen {
+    height: 200px;
+    width: 100%;
+    padding-top: 130px; }
+  h1 {
+    font-size: 190%; }
+  .servicios__soporte--logo {
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 50px; }
+  .quienessomos__grilla {
+    display: grid;
+    grid-template-areas: "quienessomos__grilla__titulo" "quienessomos__grilla__mision" "quienessomos__grilla__vision";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; }
+  .noticias__grilla {
+    display: grid;
+    grid-template-areas: "noticias1" "noticias2" "noticias3";
+    grid-template-columns: 1fr; }
+  .noticias__grilla__links {
+    display: none; } }
+
+@media only screen and (min-width: 769px) {
+  .header__carrousel2 {
+    display: none; } }
