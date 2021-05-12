@@ -44,7 +44,7 @@ h2 {
   background-color: #ffc964b9; }
 
 .noticias__grilla {
-  background-color: rgba(207, 205, 205, 0.685); }
+  background: linear-gradient(#ffc964b9, rgba(207, 205, 205, 0.685)); }
 
 .noticias__grilla__1 {
   background-color: white; }
@@ -61,6 +61,9 @@ h2 {
 .bigicon {
   font-size: 35px;
   color: #494949; }
+
+.navcolor {
+  background-color: #ffffff; }
 
 * {
   padding: 0;
