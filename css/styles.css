@@ -58,6 +58,10 @@ h2 {
 .noticias__grilla__links a {
   color: #6d87ad; }
 
+.bigicon {
+  font-size: 35px;
+  color: #494949; }
+
 * {
   padding: 0;
   margin: 0;
@@ -183,6 +187,13 @@ h2 {
 .video__responsive {
   margin-bottom: 20px; }
 
+.btn-margen {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.formulario {
+  margin-top: 30px; }
+
 /* Configuracion body */
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -228,8 +239,7 @@ h2 {
 
 .quienessomos__grilla {
   display: grid;
-  grid-template-areas: "quienessomos__grilla__titulo quienessomos__grilla__titulo"
- "quienessomos__grilla__mision quienessomos__grilla__vision";
+  grid-template-areas: "quienessomos__grilla__titulo quienessomos__grilla__titulo" "quienessomos__grilla__mision quienessomos__grilla__vision";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr; }
 
@@ -244,9 +254,7 @@ h2 {
 
 .noticias__grilla {
   display: grid;
-  grid-template-areas: "links noticias1 vacio2"
- "links noticias2 vacio2"
- "links noticias3 vacio2";
+  grid-template-areas: "links noticias1 vacio2" "links noticias2 vacio2" "links noticias3 vacio2";
   grid-template-columns: 2fr 7fr 2fr; }
 
 .noticias__grilla__1 {
@@ -288,32 +296,16 @@ h2 {
     margin-top: 50px; }
   .quienessomos__grilla {
     display: grid;
-    grid-template-areas: "quienessomos__grilla__titulo"
- "quienessomos__grilla__mision"
- "quienessomos__grilla__vision";
+    grid-template-areas: "quienessomos__grilla__titulo" "quienessomos__grilla__mision" "quienessomos__grilla__vision";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; }
   .noticias__grilla {
     display: grid;
-    grid-template-areas: "noticias1"
- "noticias2"
- "noticias3";
+    grid-template-areas: "noticias1" "noticias2" "noticias3";
     grid-template-columns: 1fr; }
   .noticias__grilla__links {
     display: none; } }
 
-    .header {
-      color: #505050;
-      font-size: 27px;
-      padding: 10px;
-  }
-  
-  .bigicon {
-      font-size: 35px;
-      color: #494949;
-  }
-
 @media only screen and (min-width: 769px) {
   .header__carrousel2 {
     display: none; } }
-    
