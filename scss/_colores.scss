@@ -13,6 +13,10 @@ h2 {
     color: #4f4f4f;
 }
 
+h5 { 
+    color: black;
+}
+
 .footer__area2 {
     background-color: rgba(255, 176, 29, 0.692);
 }
@@ -76,7 +80,7 @@ h2 {
 }
 
 .noticias__grilla__links a {
-    color: rgb(109, 135, 173);
+    color: rgb(0, 0, 0);
 }
 
 .bigicon {
@@ -86,4 +90,25 @@ h2 {
 
 .navcolor {
     background-color: #ffffff;
+}
+
+.boton {
+    background-color: white;
+}
+
+.boton:hover {
+    background-color: #ffaa94;
+}
+.botonactivo {
+    background-color: #ffd485;
+}
+
+.btn-warning {
+    background-color: #ffc04b;
+    color: #ffffff;
+}
+
+.btn-warning:hover {
+    color: #ffffff;
+    background-color: #ffaa94;
 }

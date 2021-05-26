@@ -7,6 +7,9 @@ body {
 h2 {
   color: #4f4f4f; }
 
+h5 {
+  color: black; }
+
 .footer__area2 {
   background-color: rgba(255, 176, 29, 0.692); }
 
@@ -56,7 +59,7 @@ h2 {
   background-color: white; }
 
 .noticias__grilla__links a {
-  color: #6d87ad; }
+  color: black; }
 
 .bigicon {
   font-size: 35px;
@@ -64,6 +67,23 @@ h2 {
 
 .navcolor {
   background-color: #ffffff; }
+
+.boton {
+  background-color: white; }
+
+.boton:hover {
+  background-color: #ffaa94; }
+
+.botonactivo {
+  background-color: #ffd485; }
+
+.btn-warning {
+  background-color: #ffc04b;
+  color: #ffffff; }
+
+.btn-warning:hover {
+  color: #ffffff;
+  background-color: #ffaa94; }
 
 * {
   padding: 0;
@@ -87,7 +107,7 @@ h2 {
   padding-bottom: 0px; }
 
 .section__margin {
-  padding-top: 75px; }
+  padding-top: 70px; }
 
 .header__box--imagen {
   padding-top: 65px; }
@@ -171,19 +191,24 @@ h2 {
 
 .noticias__grilla__1 {
   padding-right: 30px;
-  padding-left: 30px; }
+  padding-left: 30px;
+  padding-bottom: 10px; }
   .noticias__grilla__1 h2 {
     padding-bottom: 40px; }
 
 .noticias__grilla__2 {
   padding-right: 30px;
-  padding-left: 30px; }
+  padding-left: 30px;
+  padding-bottom: 10px;
+  border-top: #c2c2c2 1px solid; }
   .noticias__grilla__2 h2 {
     padding-bottom: 40px; }
 
 .noticias__grilla__3 {
   padding-right: 30px;
-  padding-left: 30px; }
+  padding-left: 30px;
+  padding-bottom: 10px;
+  border-top: #c2c2c2 1px solid; }
   .noticias__grilla__3 h2 {
     padding-bottom: 40px; }
 
@@ -196,6 +221,15 @@ h2 {
 
 .formulario {
   margin-top: 30px; }
+
+.borde {
+  border: black 1px; }
+
+.navbar__position {
+  height: 70px; }
+
+.margenabajo {
+  margin-bottom: 40px; }
 
 /* Configuracion body */
 body {
@@ -275,6 +309,14 @@ h2 {
 .vacio2 {
   grid-area: vacio2; }
 
+.ws:hover {
+  animation: jello;
+  animation-duration: 1s; }
+
+.boton:hover {
+  animation: headShake;
+  animation-duration: 0.7s; }
+
 /* Seteo responsive */
 @media only screen and (max-width: 768px) {
   .header__carrousel1 {
@@ -307,8 +349,20 @@ h2 {
     grid-template-areas: "noticias1" "noticias2" "noticias3";
     grid-template-columns: 1fr; }
   .noticias__grilla__links {
-    display: none; } }
+    display: none; }
+  .noticias__grilla__1 {
+    background-color: #fae9d0; }
+  .noticias__grilla__2 {
+    background-color: #f7f7f7; }
+  .noticias__grilla__3 {
+    background-color: #fae9d0; }
+  .navbar__position {
+    height: 77px; }
+  .bordetabla {
+    border-top: solid 1px black; } }
 
 @media only screen and (min-width: 769px) {
   .header__carrousel2 {
-    display: none; } }
+    display: none; }
+  .servicios__soporte__caracteristicas {
+    padding-bottom: 15px; } }

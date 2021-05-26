@@ -97,10 +97,17 @@
     .vacio2 {
         grid-area: vacio2;
     }
+    .ws:hover {
+        animation: jello;
+        animation-duration: 1s;
+    }
 
+    .boton:hover {
+        animation: headShake;
+        animation-duration: 0.7s;
+    }
 
-
-
+    
  /* Seteo responsive */  
 
  @media only screen and (max-width:768px) {
@@ -148,6 +155,21 @@
     .noticias__grilla__links {
         display: none;
     }
+    .noticias__grilla__1 {
+        background-color: rgb(250, 233, 208);
+    }
+    .noticias__grilla__2 {
+        background-color: rgb(247, 247, 247);
+    }
+    .noticias__grilla__3 {
+        background-color: rgb(250, 233, 208);
+    }
+    .navbar__position {
+        height: 77px;
+    }
+    .bordetabla {
+        border-top: solid 1px black;
+    }
 }
 
 
@@ -155,4 +177,8 @@
 @media only screen and (min-width:769px) {
     .header__carrousel2 {
             display: none;
-    }}
+    }
+    .servicios__soporte__caracteristicas {
+        padding-bottom: 15px;
+    }
+}
